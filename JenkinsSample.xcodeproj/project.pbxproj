@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8FCA3AAC2AC65B36003ADDA7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FCA3AAB2AC65B36003ADDA7 /* GoogleService-Info.plist */; };
 		8FF068542AC517AC00F58A99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF068532AC517AC00F58A99 /* AppDelegate.swift */; };
 		8FF068562AC517AC00F58A99 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF068552AC517AC00F58A99 /* SceneDelegate.swift */; };
 		8FF068582AC517AC00F58A99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF068572AC517AC00F58A99 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8FCA3AAB2AC65B36003ADDA7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8FF068502AC517AC00F58A99 /* JenkinsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JenkinsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FF068532AC517AC00F58A99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FF068552AC517AC00F58A99 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 		8FF068522AC517AC00F58A99 /* JenkinsSample */ = {
 			isa = PBXGroup;
 			children = (
+				8FCA3AAB2AC65B36003ADDA7 /* GoogleService-Info.plist */,
 				8FF068532AC517AC00F58A99 /* AppDelegate.swift */,
 				8FF068552AC517AC00F58A99 /* SceneDelegate.swift */,
 				8FF068572AC517AC00F58A99 /* ViewController.swift */,
@@ -195,13 +198,16 @@
 				TargetAttributes = {
 					8FF0684F2AC517AC00F58A99 = {
 						CreatedOnToolsVersion = 15.0;
+						ProvisioningStyle = Automatic;
 					};
 					8FF068652AC517AE00F58A99 = {
 						CreatedOnToolsVersion = 15.0;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 8FF0684F2AC517AC00F58A99;
 					};
 					8FF0686F2AC517AE00F58A99 = {
 						CreatedOnToolsVersion = 15.0;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 8FF0684F2AC517AC00F58A99;
 					};
 				};
@@ -232,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FF068602AC517AE00F58A99 /* LaunchScreen.storyboard in Resources */,
+				8FCA3AAC2AC65B36003ADDA7 /* GoogleService-Info.plist in Resources */,
 				8FF0685D2AC517AE00F58A99 /* Assets.xcassets in Resources */,
 				8FF0685B2AC517AC00F58A99 /* Main.storyboard in Resources */,
 			);
@@ -441,8 +448,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = N6BQD5CLDZ;
+				CURRENT_PROJECT_VERSION = 19;
+				DEVELOPMENT_TEAM = 9P84J3MM66;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = JenkinsSample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -455,7 +462,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.appit.JenkinsSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appit.cicdtest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -469,8 +476,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = N6BQD5CLDZ;
+				CURRENT_PROJECT_VERSION = 19;
+				DEVELOPMENT_TEAM = 9P84J3MM66;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = JenkinsSample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -483,7 +490,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.appit.JenkinsSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appit.cicdtest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -497,12 +504,12 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = N6BQD5CLDZ;
+				CURRENT_PROJECT_VERSION = 19;
+				DEVELOPMENT_TEAM = B3K6D7YD6F;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.appit.JenkinsSampleTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appit.cicdtestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -517,12 +524,12 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = N6BQD5CLDZ;
+				CURRENT_PROJECT_VERSION = 19;
+				DEVELOPMENT_TEAM = B3K6D7YD6F;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.appit.JenkinsSampleTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appit.cicdtestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -536,11 +543,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = N6BQD5CLDZ;
+				CURRENT_PROJECT_VERSION = 19;
+				DEVELOPMENT_TEAM = B3K6D7YD6F;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.appit.JenkinsSampleUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appit.cicdtestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -554,11 +561,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = N6BQD5CLDZ;
+				CURRENT_PROJECT_VERSION = 19;
+				DEVELOPMENT_TEAM = B3K6D7YD6F;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.appit.JenkinsSampleUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appit.cicdtestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
