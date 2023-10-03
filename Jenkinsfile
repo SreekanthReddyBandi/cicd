@@ -8,7 +8,7 @@ pipeline {
         stage('Hello') {
             steps {
                 echo "Hello $params.Name"
-                callUnwrappedBundlePrefixedScriptWithCorrectEnvironment($/exec fastlane do_everything_dev notes:"$params.releaseNotes" --env $params.environment/$)
+                callUnwrappedBundlePrefixedScriptWithCorrectEnvironment($/exec fastlane do_everything_dev/$)
 
             }
         }
