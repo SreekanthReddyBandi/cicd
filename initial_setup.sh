@@ -39,7 +39,7 @@ prepare_project() {
 }
 
 install_certificates() {
-    ./run_bundle.sh exec fastlane certificates git_url:git@bitbucket.org:twgnz/mob-ios-signing.git --env tw.development
+    ./run_bundle.sh exec fastlane certificates git_url:git@github.com:SreekanthReddyBandi/CICD_Certificates.git --env adhoc
 } 
 
 xcode-select --install
