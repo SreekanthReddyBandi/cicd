@@ -8,7 +8,7 @@ pipeline {
         stage('Hello') {
             steps {
                 echo "Hello $params.Name"
-                callUnwrappedBundlePrefixedScriptWithCorrectEnvironment($/exec fastlane do_everything_dev/$)
+                callBundlePrefixedScriptWithCorrectEnvironment($/exec fastlane do_everything_dev/$)
 
             }
         }
@@ -21,4 +21,9 @@ def callUnwrappedBundlePrefixedScriptWithCorrectEnvironment(String command) {
 	bundle $command
 	/$
 	sh template
+}
+
+
+def callBundlePrefixedScriptWithCorrectEnvironment(String command) {
+	sh "./Automation/run_bundle.sh  $command"
 }
