@@ -9,7 +9,7 @@ pipeline {
             steps {
                 echo "Hello $params.Name"
                 echo "Start Upload to firebase ..."
-                callBundlePrefixedScriptWithCorrectEnvironment($/exec sudo fastlane do_everything_dev/$)
+                callBundlePrefixedScriptWithCorrectEnvironment($/exec fastlane do_everything_dev/$)
 
             }
         }
