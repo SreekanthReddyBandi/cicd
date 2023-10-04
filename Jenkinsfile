@@ -8,6 +8,7 @@ pipeline {
         stage('Hello') {
             steps {
                 echo "Hello $params.Name"
+                echo "Upload to firebase"
                 callBundlePrefixedScriptWithCorrectEnvironment($/exec fastlane do_everything_dev/$)
 
             }
