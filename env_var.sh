@@ -1,5 +1,5 @@
 #! /bin/bash
 
-export BUNDLE_VERSION="2.2.23"
+export BUNDLE_VERSION="3.4.20"
 
 
