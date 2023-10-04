@@ -25,5 +25,5 @@ def callUnwrappedBundlePrefixedScriptWithCorrectEnvironment(String command) {
 
 
 def callBundlePrefixedScriptWithCorrectEnvironment(String command) {
-	sh "./Automation/run_bundle.sh  $command"
+	sh "./run_bundle.sh  $command"
 }
