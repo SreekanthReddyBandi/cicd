@@ -4,7 +4,7 @@ export LANG=en_US.UTF-8
 
 command="$@"
 
-source ./Automation/env_var.sh
+source ./env_var.sh
 
 if [ -z ${XCODE_VERSION} ]; then
     source ./fastlane/xcode_version
